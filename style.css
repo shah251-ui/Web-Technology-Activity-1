@@ -1,0 +1,101 @@
+body {
+    padding: 20px;
+    background: blue;
+    font-family: Arial;
+}
+
+.container {
+    max-width: 800px;
+    padding: 25px;
+    border-radius: 10px;
+    background: white;
+}
+
+header {
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 8px;
+    background: white;
+    color: pink;
+    text-align: center;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid ;
+    border-radius: 8px;
+}
+
+legend {
+    padding: 5px;
+    color: orange;
+    font-weight: 700;
+}
+
+label {
+    display: block;
+    padding: 8px;
+    cursor: pointer;
+}
+
+label:hover {
+    border-radius: 5px;
+    background: yellow;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    border: 0;
+    border-radius: 6px;
+    background: lavendar;
+    color: light green;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: blue;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+}
+
+.result {
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 8px;
+    background: red;
+    text-align: center;
+}
+
+.result h2 {
+    color: lightblue;
+}
+
+.result h3 {
+    color: pink;
+}
+
+.result + h2 {
+    text-align: center;
+}
+
+
+
